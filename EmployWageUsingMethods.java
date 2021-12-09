@@ -4,7 +4,7 @@ public class EmployWageUsingMethods {
     public static final int emp_rate=20;
 
     public static int attendance() {
-        int check = (int) Math.floor(Math.random() * 10) % 2;
+        int check = (int) Math.floor(Math.random() * 10) % 3;
         return check;
     }
 
