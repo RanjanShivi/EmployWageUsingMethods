@@ -2,7 +2,7 @@ public class EmployWageUsingMethods {
     public static final int full_time=1;
 
     public static int attendance() {
-        int check = (int) Math.floor(Math.random() * 10) % 3;
+        int check = (int) Math.floor(Math.random() * 10) % 2;
         return check;
     }
     public static void main(String[] args) {
